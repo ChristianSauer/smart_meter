@@ -21,16 +21,6 @@ class Config:
     Positive integer, timeout between captures in seconds
     """
 
-    vallox_ip: str
-    """
-    IP address of the Vallox KWL
-    """
-
-    metrics: List[Metric]
-    """
-    metrics to be ingested
-    """
-
     ravendb_pem_file: str
     """
     File name of the PEM for ravendb. Should be in a directory in this directory
@@ -43,6 +33,11 @@ class Config:
 
     ravendb_db: str
     "ravendb database, must exist"
+
+    reading_type: str
+    """
+    name of the document in ravenDb
+    """
 
 
 default_path = str(pathlib.Path(__file__).parent / "config.yml")

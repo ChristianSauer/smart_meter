@@ -270,7 +270,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "smlpy"
-version = "0.2.1"
+version = "0.2.2"
 description = "smlpy enables reading of smart meter language (sml) data from a smart power meter. You need a working IR-reading device for this, e.g. https://shop.weidmann-elektronik.de/index.php?page=product&info=24which must be connected to an USB port. Please note that this library only supports a small part of the SML-spec, especially the sending part is intentionally omitted"
 category = "main"
 optional = false
@@ -492,8 +492,6 @@ pyyaml = [
     {file = "PyYAML-5.3.1-cp37-cp37m-win_amd64.whl", hash = "sha256:73f099454b799e05e5ab51423c7bcf361c58d3206fa7b0d555426b1f4d9a3eaf"},
     {file = "PyYAML-5.3.1-cp38-cp38-win32.whl", hash = "sha256:06a0d7ba600ce0b2d2fe2e78453a470b5a6e000a985dd4a4e54e436cc36b0e97"},
     {file = "PyYAML-5.3.1-cp38-cp38-win_amd64.whl", hash = "sha256:95f71d2af0ff4227885f7a6605c37fd53d3a106fcab511b8860ecca9fcf400ee"},
-    {file = "PyYAML-5.3.1-cp39-cp39-win32.whl", hash = "sha256:ad9c67312c84def58f3c04504727ca879cb0013b2517c85a9a253f0cb6380c0a"},
-    {file = "PyYAML-5.3.1-cp39-cp39-win_amd64.whl", hash = "sha256:6034f55dab5fea9e53f436aa68fa3ace2634918e8b5994d82f3621c04ff5ed2e"},
     {file = "PyYAML-5.3.1.tar.gz", hash = "sha256:b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"},
 ]
 requests = [
@@ -509,8 +507,8 @@ six = [
     {file = "six-1.15.0.tar.gz", hash = "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"},
 ]
 smlpy = [
-    {file = "smlpy-0.2.1-py3-none-any.whl", hash = "sha256:4dc3be3b70a570c8e0efed1c8d6fde38f29903bccab0b412d0990401de651463"},
-    {file = "smlpy-0.2.1.tar.gz", hash = "sha256:0acf1c935506245f904b55b8b8d1a368724980f02fe11fd7c0131422755a6a88"},
+    {file = "smlpy-0.2.2-py3-none-any.whl", hash = "sha256:485aa7a2429fd5800fdd1d6950cf7fa4bc70992b45ef1950e72875c21b74aaeb"},
+    {file = "smlpy-0.2.2.tar.gz", hash = "sha256:cd0f5257a905bb85df2b5af456fc24ad8cf0d65d0d0985cb9cfdb9b30fcf07d3"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.7.4.3-py2-none-any.whl", hash = "sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f"},

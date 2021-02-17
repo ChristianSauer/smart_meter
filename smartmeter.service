@@ -3,8 +3,8 @@ Description=Smart Meter
 After=network.target
 
 [Service]
-ExecStart=python app.py
-WorkingDirectory=/opt/app
+ExecStart= /opt/smart_meter/.venv/bin/python app.py
+WorkingDirectory=/opt/smart_meter
 StandardOutput=inherit
 StandardError=inherit
 Restart=always

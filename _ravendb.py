@@ -17,7 +17,7 @@ class Data:
     readingType: str
 
 
-doc_id = "data/kwl"
+doc_id = f"data/{config.reading_type}"
 
 
 def store_result(metrics: Dict[str, float], tag_data: Dict[str, str]):
@@ -27,7 +27,7 @@ def store_result(metrics: Dict[str, float], tag_data: Dict[str, str]):
         doc = session.load(doc_id, object_type=Data)
 
         if not doc:
-            data = Data(readingType="kwl")
+            data = Data(readingType=config.reading_type)
             session.store(data, key=doc_id)
             session.save_changes()
 
